@@ -11,8 +11,8 @@
 }
 
 body{
-    /* font-family: 'Orbitron', sans-serif; */
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Orbitron', sans-serif;
+    
     background-color: rgb(92, 174, 201);
 }
 
@@ -30,7 +30,26 @@ body{
     margin-top:10px;
 }
 
+.mainInput,
+#link-form > div{
+    font-size: 1.5rem;
+    color:lightcoral;
+    font-weight: bold;
+}
+
+#msg-form .btn{
+    color:white;
+    background-color: rgb(92, 174, 201);
+    font-weight: bold;
+}
+
 
 #msg-show h1{
     margin-top:0;
+    font-family: 'Indie Flower', cursive;
+    color:lightcoral;
+}
+
+#msg-show a{
+    font-size: 1.2rem;
 }
